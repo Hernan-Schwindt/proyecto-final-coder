@@ -1,0 +1,830 @@
+.body-todos main .img-box .manga div .manga-flex div, .body-todos .memes-home .img-box .manga div .manga-flex div, .body-biblioteca .main-biblioteca .main-biblioteca__flex .biblioteca-box div .biblioteca-flex div .manga-flex div {
+  width: calc(20% - 10px);
+  margin: 5px;
+  overflow: hidden;
+  position: relative; }
+
+.body-todos main .img-box .manga div .manga-flex div a img, .body-todos .memes-home .img-box .manga div .manga-flex div a img, .body-biblioteca .main-biblioteca .main-biblioteca__flex .biblioteca-box div .biblioteca-flex div .manga-flex div a img {
+  width: 100%;
+  transition: 0.5s;
+  object-fit: cover; }
+
+.body-todos main .img-box .manga div .manga-flex div a img:hover, .body-todos .memes-home .img-box .manga div .manga-flex div a img:hover, .body-biblioteca .main-biblioteca .main-biblioteca__flex .biblioteca-box div .biblioteca-flex div .manga-flex div a img:hover {
+  transform: scale(1.2); }
+
+.body-todos main .img-box .manga div .manga-flex, .body-todos .memes-home .img-box .manga div .manga-flex, .body-biblioteca .main-biblioteca .main-biblioteca__flex .biblioteca-box div .biblioteca-flex div .manga-flex, .cap-img-body main .cap-t h3 {
+  display: flex;
+  flex-wrap: wrap; }
+
+.body-form .main-formu .mein-form .main-form__flex div .formulario fieldset .form-enviar, .body-regis .main-form__flex .box-form .formulario fieldset .box-enviar .form-enviar {
+  padding: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background: #071e3db4;
+  color: #D9FAFF;
+  border: 1px solid #071e3d80;
+  transition: 0.5s; }
+
+.body-todos main .img-box .manga div .boton-de-mostrar-mas button, .body-todos .memes-home .memes .memes-flex .boton-de-mostrar-mas button, .body-todos .memes-home .img-box .manga div .botones-de-cambio .anterior, .body-todos .memes-home .img-box .manga div .botones-de-cambio .siguiente, .body-biblioteca .main-biblioteca .main-biblioteca__flex .biblioteca-box div .biblioteca-flex .botones-de-cambio .anterior, .body-biblioteca .main-biblioteca .main-biblioteca__flex .biblioteca-box div .biblioteca-flex .botones-de-cambio .siguiente, .cap-img-body main .botones-de-cambio .anterior, .cap-img-body main .botones-de-cambio .siguiente, .manga-descripcion main section div .boton-de-mostrar-mas button {
+  margin: 5px;
+  padding: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background: #071e3db4;
+  color: #D9FAFF;
+  border: 1px solid #071e3db4;
+  display: flex;
+  align-items: center;
+  transition: 0.5s; }
+
+.body-todos main .img-box .manga div .boton-de-mostrar-mas, .body-todos .memes-home .memes .memes-flex .boton-de-mostrar-mas, .body-todos .memes-home .img-box .manga div .botones-de-cambio, .body-biblioteca .main-biblioteca .main-biblioteca__flex .biblioteca-box div .biblioteca-flex .botones-de-cambio, .cap-img-body main .botones-de-cambio, .manga-descripcion main section div .boton-de-mostrar-mas {
+  display: flex;
+  justify-content: space-between; }
+
+.body-todos main .img-box .manga div .boton-de-mostrar-mas button:hover, .body-todos .memes-home .memes .memes-flex .boton-de-mostrar-mas button:hover, .body-todos .memes-home .img-box .manga div .botones-de-cambio .anterior:hover, .body-todos .memes-home .img-box .manga div .botones-de-cambio .siguiente:hover, .body-biblioteca .main-biblioteca .main-biblioteca__flex .biblioteca-box div .biblioteca-flex .botones-de-cambio .anterior:hover, .body-biblioteca .main-biblioteca .main-biblioteca__flex .biblioteca-box div .biblioteca-flex .botones-de-cambio .siguiente:hover, .body-form .main-formu .mein-form .main-form__flex div .formulario fieldset .form-enviar:hover, .cap-img-body main .botones-de-cambio .anterior:hover, .cap-img-body main .botones-de-cambio .siguiente:hover, .body-regis .main-form__flex .box-form .formulario fieldset .box-enviar .form-enviar:hover, .manga-descripcion main section div .boton-de-mostrar-mas button:hover {
+  border: 1px solid #00ffff77; }
+
+.body-todos main .img-box .manga div .boton-de-mostrar-mas button .i-1, .body-todos .memes-home .memes .memes-flex .boton-de-mostrar-mas button .i-1, .body-todos .memes-home .img-box .manga div .botones-de-cambio .anterior i, .body-biblioteca .main-biblioteca .main-biblioteca__flex .biblioteca-box div .biblioteca-flex .botones-de-cambio .anterior i, .cap-img-body main .botones-de-cambio .anterior i, .manga-descripcion main section div .boton-de-mostrar-mas button .i-1 {
+  color: #D9FAFF;
+  font-size: 20px;
+  margin-right: 5px; }
+
+.body-todos main .img-box .manga div .boton-de-mostrar-mas button .i-2, .body-todos .memes-home .memes .memes-flex .boton-de-mostrar-mas button .i-2, .body-todos .memes-home .img-box .manga div .botones-de-cambio .siguiente i, .body-biblioteca .main-biblioteca .main-biblioteca__flex .biblioteca-box div .biblioteca-flex .botones-de-cambio .siguiente i, .cap-img-body main .botones-de-cambio .siguiente i, .manga-descripcion main section div .boton-de-mostrar-mas button .i-2 {
+  color: #D9FAFF;
+  font-size: 20px;
+  margin-left: 5px; }
+
+.body-form .main-formu .mein-form .main-form__flex div .formulario fieldset .apellido-nombre input, .body-form .main-formu .mein-form .main-form__flex div .formulario fieldset .mail input, .body-form .main-formu .mein-form .main-form__flex div .formulario fieldset .mail select, .body-form .main-formu .mein-form .main-form__flex div .formulario fieldset .mail .text-asunto textarea, .body-regis .main-form__flex .box-form .formulario fieldset .apellido-nombre input, .body-regis .main-form__flex .box-form .formulario fieldset .mail input, .body-regis .main-form__flex .box-form .formulario fieldset .mail select {
+  background-color: #1f428798;
+  border: 3px solid #1f428798;
+  border-radius: 5px;
+  transition: 0.7s; }
+
+.body-form .main-formu .mein-form .main-form__flex div .formulario fieldset .apellido-nombre input:hover, .body-form .main-formu .mein-form .main-form__flex div .formulario fieldset .mail input:hover, .body-form .main-formu .mein-form .main-form__flex div .formulario fieldset .mail select:hover, .body-form .main-formu .mein-form .main-form__flex div .formulario fieldset .mail .text-asunto textarea:hover, .body-regis .main-form__flex .box-form .formulario fieldset .apellido-nombre input:hover, .body-regis .main-form__flex .box-form .formulario fieldset .mail input:hover, .body-regis .main-form__flex .box-form .formulario fieldset .mail select:hover {
+  border: 2px solid #00ffff77; }
+
+.body-form .main-formu .mein-form .main-form__flex div .formulario fieldset .apellido-nombre input:focus, .body-form .main-formu .mein-form .main-form__flex div .formulario fieldset .mail input:focus, .body-form .main-formu .mein-form .main-form__flex div .formulario fieldset .mail select:focus, .body-form .main-formu .mein-form .main-form__flex div .formulario fieldset .mail .text-asunto textarea:focus, .body-regis .main-form__flex .box-form .formulario fieldset .apellido-nombre input:focus, .body-regis .main-form__flex .box-form .formulario fieldset .mail input:focus, .body-regis .main-form__flex .box-form .formulario fieldset .mail select:focus {
+  outline: none;
+  border-bottom: 3px solid #00ffff77; }
+
+.body-form .main-formu .mein-form .main-form__flex div .formulario, .body-regis .main-form__flex .box-form .formulario {
+  padding: 10px; }
+
+.body-todos .aside-home .aside__top-10 .top-10-n div .aside__top-10__n, .body-uso-usuario main div div div .aside__top-10 .top-10-n div .aside__top-10__n {
+  background-color: #071e3db4;
+  color: #000000;
+  display: inline-block;
+  text-align: center;
+  padding: 5px 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 30px; }
+
+.body-todos .aside-home .aside__top-10 .top-10-n div b a:hover, .body-uso-usuario main div div div .aside__top-10 .top-10-n div b a:hover {
+  color: gold;
+  transition: 0.8s; }
+
+.manga-descripcion main .div-descripcion .historia-div .historia-titulo h2, .manga-descripcion main .div-descripcion .historia-div .historia-titulo h3 {
+  text-align: center;
+  padding-bottom: 10px; }
+
+.body-todos main .img-box .manga div .manga-flex div a h5, .body-todos .memes-home .img-box .manga div .manga-flex div a h5, .body-biblioteca .main-biblioteca .main-biblioteca__flex .biblioteca-box div .biblioteca-flex div .manga-flex div a h5 {
+  position: absolute;
+  z-index: 20;
+  width: 100%;
+  background-color: #000000a9;
+  padding: 4px 5px 4px 5px;
+  text-align: center;
+  font-size: 16px;
+  top: 0;
+  right: 0;
+  left: 0; }
+
+.body-todos main .img-box .manga div .manga-flex div a .star, .body-todos .memes-home .img-box .manga div .manga-flex div a .star, .body-biblioteca .main-biblioteca .main-biblioteca__flex .biblioteca-box div .biblioteca-flex div .manga-flex div a .star {
+  position: absolute;
+  z-index: 20;
+  right: 0px;
+  padding: 0px 5px 2px 3px;
+  top: 27px;
+  background-color: #000000a9;
+  color: #D9FAFF; }
+
+.manga-descripcion main .div-descripcion .img div .star-descripcion {
+  position: absolute;
+  padding: 0px 5px 2px 3px;
+  background-color: #000000a9;
+  color: #D9FAFF; }
+
+.body-todos main .img-box .manga div .manga-flex div a .star i, .body-todos .memes-home .img-box .manga div .manga-flex div a .star i, .body-biblioteca .main-biblioteca .main-biblioteca__flex .biblioteca-box div .biblioteca-flex div .manga-flex div a .star i, .manga-descripcion main .div-descripcion .img div .star-descripcion i {
+  color: gold; }
+
+.body-todos main .img-box .manga div .manga-flex div a .genero, .body-todos .memes-home .img-box .manga div .manga-flex div a .genero, .body-biblioteca .main-biblioteca .main-biblioteca__flex .biblioteca-box div .biblioteca-flex div .manga-flex div a .genero {
+  position: absolute;
+  z-index: 20;
+  text-align: center;
+  background-color: #071e3da1;
+  bottom: 0;
+  right: 0;
+  left: 0; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif; }
+
+body {
+  color: #D9FAFF;
+  background: linear-gradient(#22222296, #22222296), url(../img/aleatorias/bg-fondo.jpg) no-repeat center center fixed #222;
+  background-size: cover;
+  min-height: 100vh;
+  max-width: 100%; }
+  body a {
+    text-decoration: none;
+    color: #D9FAFF; }
+  body a:hover {
+    color: #D9FAFF; }
+  body header {
+    max-width: 100%; }
+  body main {
+    min-height: calc(100vh - 59px - 90px);
+    max-width: 100%;
+    min-width: 100%; }
+  body footer {
+    margin-top: 10px;
+    max-width: 100%; }
+  body h1 {
+    font-size: 23px; }
+  body h1,
+  body h2,
+  body h3,
+  body h4,
+  body h5,
+  body h6 {
+    margin-bottom: 0; }
+  body ul {
+    margin-bottom: 0;
+    padding-left: 0; }
+  body .header-a {
+    margin-right: 25px; }
+  body .header-a,
+  body .navbar-nav .nav-link.active {
+    color: #D9FAFF; }
+  body select {
+    word-wrap: normal; }
+
+.body-todos {
+  display: grid;
+  align-items: start;
+  grid-template-areas: "header header" "main aside" "ultima aside" "memes aside" "footer footer";
+  /*main home*/
+  /*todo el aside*/ }
+  .body-todos .header-home {
+    grid-area: header-home; }
+  .body-todos header div nav {
+    background-color: #071E3D; }
+    .body-todos header div nav div div ul form {
+      display: inline-block;
+      margin-right: 50px;
+      padding-bottom: 5px; }
+  .body-todos header div nav div .navbar-collapse {
+    justify-content: space-between; }
+    .body-todos header div nav div .navbar-collapse ul .header-nav-1 {
+      margin-right: 40px; }
+    .body-todos header div nav div .navbar-collapse ul .header-nav-2 {
+      margin-right: 10px; }
+  .body-todos .main-home {
+    grid-area: main-home; }
+  .body-todos main .img-box {
+    margin-top: 57px; }
+    .body-todos main .img-box .manga {
+      margin-right: 10px;
+      margin-left: 10px;
+      margin-bottom: 25px;
+      background-color: #1f428798;
+      display: inline-block; }
+      .body-todos main .img-box .manga h3 {
+        background-color: #071E3D;
+        text-align: center; }
+      .body-todos main .img-box .manga div .boton-de-mostrar-mas {
+        justify-content: center; }
+        .body-todos main .img-box .manga div .boton-de-mostrar-mas button {
+          justify-content: center; }
+  .body-todos .aside-home {
+    display: flex;
+    justify-content: center;
+    grid-area: aside-home; }
+    .body-todos .aside-home .aside {
+      width: 350px;
+      height: 100%;
+      margin-top: 57px; }
+      .body-todos .aside-home .aside__flex-chat__chat-web {
+        display: flex;
+        background-color: #1F4287;
+        height: 400px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between; }
+        .body-todos .aside-home .aside__flex-chat__chat-web h2 {
+          background-color: #071E3D;
+          text-align: center;
+          font-size: 21px;
+          color: #1561a8;
+          text-shadow: 1px 1px 4px #278EA5;
+          width: 350px; }
+        .body-todos .aside-home .aside__flex-chat__chat-web__chat {
+          background-color: #fff;
+          width: 330px;
+          height: 320px; }
+        .body-todos .aside-home .aside__flex-chat__chat-web div form {
+          padding: 10px; }
+          .body-todos .aside-home .aside__flex-chat__chat-web div form .text {
+            width: 270px;
+            padding: 5px; }
+      .body-todos .aside-home .aside__discord {
+        background-color: #5865f2;
+        height: 56px; }
+        .body-todos .aside-home .aside__discord div h3 {
+          text-align: center;
+          padding-top: 11px; }
+          .body-todos .aside-home .aside__discord div h3 a {
+            color: #fff;
+            font-size: 32px; }
+          .body-todos .aside-home .aside__discord div h3 span {
+            color: #fff;
+            font-size: 15px;
+            padding-left: 32px; }
+      .body-todos .aside-home .aside__top-10 {
+        width: 100%; }
+        .body-todos .aside-home .aside__top-10 .h2-usuario {
+          background-color: #071e3db4; }
+        .body-todos .aside-home .aside__top-10 .top-10-n {
+          background-color: #1f428798; }
+          .body-todos .aside-home .aside__top-10 .top-10-n div .aside-top-1 {
+            color: gold; }
+          .body-todos .aside-home .aside__top-10 .top-10-n div b a {
+            color: #D9FAFF; }
+  .body-todos .memes-home {
+    margin-right: 8px;
+    grid-area: memes-home; }
+    .body-todos .memes-home .memes {
+      background-color: #0e2e74a1;
+      margin-left: 5px; }
+      .body-todos .memes-home .memes h4 {
+        background-color: #071E3D;
+        text-align: center;
+        font-size: 25px; }
+      .body-todos .memes-home .memes .memes-flex {
+        padding: 4px;
+        display: grid;
+        grid-template-areas: "chaman eva" "cora video" "boton-de-mostrar-mas boton-de-mostrar-mas"; }
+        .body-todos .memes-home .memes .memes-flex .chaman {
+          grid-area: chaman; }
+          .body-todos .memes-home .memes .memes-flex .chaman img {
+            width: 100%; }
+        .body-todos .memes-home .memes .memes-flex .eva {
+          grid-area: eva; }
+          .body-todos .memes-home .memes .memes-flex .eva img {
+            width: 100%; }
+        .body-todos .memes-home .memes .memes-flex .cora img {
+          width: 100%;
+          grid-area: cora; }
+        .body-todos .memes-home .memes .memes-flex iframe {
+          height: 315px;
+          width: 100%;
+          grid-area: video; }
+        .body-todos .memes-home .memes .memes-flex .boton-de-mostrar-mas {
+          grid-area: boton-de-mostrar-mas;
+          justify-content: center; }
+    .body-todos .memes-home .grid-ultimo {
+      grid-area: ultima;
+      margin-top: 25px; }
+    .body-todos .memes-home .img-box {
+      margin-left: 10px; }
+      .body-todos .memes-home .img-box .manga h3 {
+        text-align: center;
+        background-color: #071E3D; }
+      .body-todos .memes-home .img-box .manga div {
+        background-color: #1f428798; }
+  .body-todos .footer-home {
+    grid-area: footer-home; }
+  .body-todos footer {
+    background-color: #071E3D;
+    height: 90px;
+    width: 100%; }
+    .body-todos footer div .siguenos {
+      text-align: center; }
+      .body-todos footer div .siguenos nav ul li {
+        display: inline-block;
+        height: 30px;
+        width: 30px;
+        text-align: center; }
+        .body-todos footer div .siguenos nav ul li a {
+          color: aqua; }
+    .body-todos footer div .small {
+      text-align: center;
+      height: 20px; }
+      .body-todos footer div .small small {
+        text-align: center; }
+
+.home-body {
+  grid-template-areas: "header-home header-home" "main-home aside-home" "ultima aside-home" "memes-home aside-home" "footer-home footer-home"; }
+
+.body-biblioteca {
+  grid-template-areas: "header-biblioteca header-biblioteca" "main-biblioteca main-biblioteca" "footer-biblioteca footer-biblioteca"; }
+  .body-biblioteca .header-biblioteca {
+    grid-area: header-biblioteca; }
+  .body-biblioteca .main-biblioteca {
+    grid-area: main-biblioteca; }
+    .body-biblioteca .main-biblioteca div {
+      grid-area: aside-buscador aside-buscador; }
+      .body-biblioteca .main-biblioteca div .main-biblioteca__form {
+        background-color: #1F4287;
+        height: 45px;
+        margin-top: 25px;
+        margin-bottom: 20px; }
+        .body-biblioteca .main-biblioteca div .main-biblioteca__form input {
+          margin-top: 5px; }
+        .body-biblioteca .main-biblioteca div .main-biblioteca__form .main-biblioteca__form__buscador {
+          width: 50%;
+          height: 30px;
+          font-size: 18px;
+          margin-left: 10px; }
+        .body-biblioteca .main-biblioteca div .main-biblioteca__form .main-biblioteca__form__enviar {
+          padding: 4px; }
+    .body-biblioteca .main-biblioteca .main-biblioteca__flex {
+      display: flex;
+      flex-wrap: nowrap;
+      grid-area: main-biblioteca;
+      max-width: 100%; }
+      .body-biblioteca .main-biblioteca .main-biblioteca__flex .main-biblioteca__aside {
+        display: inline-block;
+        width: 150%;
+        margin-top: 0px;
+        margin-left: 5px;
+        margin-right: 5px;
+        grid-area: aside-biblioteca; }
+        .body-biblioteca .main-biblioteca .main-biblioteca__flex .main-biblioteca__aside div {
+          background-color: #1f428798; }
+          .body-biblioteca .main-biblioteca .main-biblioteca__flex .main-biblioteca__aside div .main-biblioteca__aside__h4 {
+            text-align: center;
+            background-color: #071E3D;
+            width: 100%; }
+          .body-biblioteca .main-biblioteca .main-biblioteca__flex .main-biblioteca__aside div div {
+            text-align: center; }
+      .body-biblioteca .main-biblioteca .main-biblioteca__flex .biblioteca-box {
+        display: inline-block;
+        margin-top: 0px; }
+        .body-biblioteca .main-biblioteca .main-biblioteca__flex .biblioteca-box div {
+          width: 100%; }
+          .body-biblioteca .main-biblioteca .main-biblioteca__flex .biblioteca-box div .biblioteca-flex {
+            width: 100%;
+            margin-bottom: 25px;
+            background-color: #1f428798;
+            display: inline-block; }
+            .body-biblioteca .main-biblioteca .main-biblioteca__flex .biblioteca-box div .biblioteca-flex h3 {
+              text-align: center;
+              background-color: #071E3D; }
+            .body-biblioteca .main-biblioteca .main-biblioteca__flex .biblioteca-box div .biblioteca-flex div .manga-flex {
+              padding: 5px; }
+  .body-biblioteca .footer-biblioteca {
+    grid-area: footer-biblioteca; }
+
+.body-form {
+  grid-template-areas: "header-formu" "main-formu" "footer-formu"; }
+  .body-form .main-formu {
+    grid-area: main-formu;
+    margin-top: 10px; }
+    .body-form .main-formu .mein-form {
+      display: flex;
+      align-items: center;
+      width: 100%; }
+      .body-form .main-formu .mein-form .main-form__flex {
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 50px; }
+        .body-form .main-formu .mein-form .main-form__flex div .formulario fieldset {
+          text-align: center;
+          background-color: #0e2e74a1;
+          width: 100%;
+          padding: 20px; }
+          .body-form .main-formu .mein-form .main-form__flex div .formulario fieldset h2 {
+            text-align: center;
+            margin-top: 25px;
+            margin-bottom: 10px; }
+          .body-form .main-formu .mein-form .main-form__flex div .formulario fieldset .apellido-nombre {
+            margin-bottom: 5px; }
+          .body-form .main-formu .mein-form .main-form__flex div .formulario fieldset .mail input {
+            margin-left: -78px; }
+          .body-form .main-formu .mein-form .main-form__flex div .formulario fieldset .mail select option {
+            background-color: #0e2e74a1; }
+          .body-form .main-formu .mein-form .main-form__flex div .formulario fieldset .mail .text-asunto {
+            margin-left: -10px;
+            margin-top: 5px;
+            margin-bottom: 5px; }
+            .body-form .main-formu .mein-form .main-form__flex div .formulario fieldset .mail .text-asunto textarea {
+              width: 85%; }
+          .body-form .main-formu .mein-form .main-form__flex div .formulario fieldset .form-enviar {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width: 100%; }
+
+/*todo manga img*/
+.cap-img-body {
+  display: inline-block; }
+  .cap-img-body header div nav div .navbar-collapse ul .header-nav-0 {
+    padding-right: 20px; }
+    .cap-img-body header div nav div .navbar-collapse ul .header-nav-0 a .h-i-1 {
+      transform: rotate(90deg); }
+  .cap-img-body main .cap-t {
+    text-align: center;
+    background-color: #5865f2a2; }
+    .cap-img-body main .cap-t h2 {
+      color: #000000; }
+    .cap-img-body main .cap-t h3 {
+      justify-content: center; }
+      .cap-img-body main .cap-t h3 span {
+        padding-left: 10px;
+        color: #00bcff; }
+  .cap-img-body main .cap-img img {
+    width: 100%; }
+  .cap-img-body main .botones-de-cambio {
+    background-color: #1f428798; }
+  .cap-img-body .footer-cap {
+    margin-top: 0; }
+
+.body-regis {
+  grid-template-areas: "header-regis" "main-regis" "footer-regis";
+  align-items: center; }
+  .body-regis .header-regis {
+    grid-area: header-regis; }
+  .body-regis .main-form {
+    grid-area: main-regis;
+    display: flex;
+    align-items: center;
+    width: 100%; }
+    .body-regis .main-form__flex {
+      display: flex;
+      justify-content: center;
+      margin: 0 auto; }
+      .body-regis .main-form__flex .box-form {
+        height: 250px;
+        margin-top: 50px;
+        margin-bottom: 50px; }
+        .body-regis .main-form__flex .box-form .formulario fieldset {
+          text-align: center;
+          background-color: #0e2e74a1;
+          padding: 20px;
+          width: 100%; }
+          .body-regis .main-form__flex .box-form .formulario fieldset h2 {
+            text-align: center;
+            margin-top: 25px;
+            margin-bottom: 10px; }
+          .body-regis .main-form__flex .box-form .formulario fieldset .apellido-nombre {
+            margin-bottom: 5px; }
+          .body-regis .main-form__flex .box-form .formulario fieldset .genero label {
+            color: #000000; }
+          .body-regis .main-form__flex .box-form .formulario fieldset .mail input {
+            margin-left: -80px; }
+          .body-regis .main-form__flex .box-form .formulario fieldset .mail select option {
+            background-color: #0e2e74a1; }
+          .body-regis .main-form__flex .box-form .formulario fieldset .mail .password {
+            margin-top: 5px;
+            margin-bottom: 5px;
+            margin-left: 95px; }
+            .body-regis .main-form__flex .box-form .formulario fieldset .mail .password input {
+              margin-left: -90px; }
+            .body-regis .main-form__flex .box-form .formulario fieldset .mail .password .repetir-password {
+              margin-left: 5px; }
+          .body-regis .main-form__flex .box-form .formulario fieldset .box-enviar .form-enviar {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width: 100%; }
+  .body-regis .footer-regis {
+    grid-area: footer-regis; }
+
+.manga-descripcion {
+  grid-template-areas: "header-manga-descripcion header-manga-descripcion" "main-manga-descripcion main-manga-descripcion" "footer-manga-descripcion footer-manga-descripcion"; }
+  .manga-descripcion header {
+    grid-area: header-manga-descripcion; }
+  .manga-descripcion main {
+    grid-area: main-manga-descripcion;
+    display: grid;
+    grid-template-areas: "div-descripsion div-descripsion div-descripsion" "capitulo capitulo aside" "memes memes memes"; }
+    .manga-descripcion main .div-descripcion {
+      display: flex;
+      flex-wrap: nowrap;
+      grid-area: div-descripsion;
+      margin-bottom: 50px;
+      margin-top: 20px; }
+      .manga-descripcion main .div-descripcion .img {
+        margin-left: 80px;
+        padding: 8px;
+        width: 65%;
+        max-width: 320px; }
+        .manga-descripcion main .div-descripcion .img div {
+          position: relative; }
+          .manga-descripcion main .div-descripcion .img div .star-descripcion {
+            bottom: 48px;
+            right: 0px; }
+          .manga-descripcion main .div-descripcion .img div .likes-todo {
+            z-index: 20;
+            position: absolute;
+            display: flex;
+            justify-content: space-evenly;
+            bottom: 0px;
+            background-color: #000000a9;
+            width: 100%;
+            height: 3rem; }
+            .manga-descripcion main .div-descripcion .img div .likes-todo .like-1 {
+              color: #34bd2f;
+              height: 30px;
+              line-height: 3rem;
+              cursor: pointer;
+              float: left;
+              width: 50%;
+              height: 100%;
+              display: flex;
+              justify-content: center; }
+              .manga-descripcion main .div-descripcion .img div .likes-todo .like-1 i {
+                font-size: 1.5rem;
+                margin-top: 5.7265px; }
+            .manga-descripcion main .div-descripcion .img div .likes-todo .like-2 {
+              color: #bd362f;
+              height: 30px;
+              line-height: 3rem;
+              cursor: pointer;
+              float: left;
+              width: calc(50% - 12px);
+              height: 100%;
+              display: flex;
+              justify-content: center; }
+              .manga-descripcion main .div-descripcion .img div .likes-todo .like-2 i {
+                font-size: 1.5rem;
+                margin-top: 5.7265px; }
+          .manga-descripcion main .div-descripcion .img div h4 {
+            background-color: #0e2e74a1;
+            width: 100%;
+            position: absolute;
+            text-align: center; }
+          .manga-descripcion main .div-descripcion .img div img {
+            width: 100%; }
+      .manga-descripcion main .div-descripcion .historia-div {
+        padding: 8px;
+        padding-right: 80px; }
+        .manga-descripcion main .div-descripcion .historia-div .historia-titulo {
+          padding: 8px;
+          width: 100%;
+          background-color: #0e2e74a1; }
+          .manga-descripcion main .div-descripcion .historia-div .historia-titulo nav ul li {
+            display: inline-block;
+            background-color: #071e3db4;
+            padding: 5px;
+            margin: 5px; }
+    .manga-descripcion main .box-capitulos {
+      padding: 8px;
+      grid-area: capitulo; }
+      .manga-descripcion main .box-capitulos .capitulos {
+        background-color: #0e2e74a1;
+        width: 100%; }
+        .manga-descripcion main .box-capitulos .capitulos h3 {
+          text-align: center;
+          background-color: #071e3db4; }
+        .manga-descripcion main .box-capitulos .capitulos div {
+          overflow: auto;
+          height: 500px; }
+          .manga-descripcion main .box-capitulos .capitulos div ul li {
+            margin-left: 8px;
+            font-size: 1.3rem; }
+            .manga-descripcion main .box-capitulos .capitulos div ul li a:hover {
+              color: #000000; }
+    .manga-descripcion main section {
+      margin-top: 20px;
+      width: 70%;
+      grid-area: memes;
+      padding: 8px; }
+      .manga-descripcion main section h4 {
+        background-color: #071e3db4;
+        text-align: center; }
+      .manga-descripcion main section div {
+        padding: 4px;
+        display: grid;
+        grid-template-areas: "chaman eva" "cora video" "boton-de-mostrar-mas boton-de-mostrar-mas";
+        background-color: #0e2e74a1; }
+        .manga-descripcion main section div .chaman {
+          grid-area: chaman; }
+          .manga-descripcion main section div .chaman img {
+            width: 100%; }
+        .manga-descripcion main section div .eva {
+          grid-area: eva; }
+          .manga-descripcion main section div .eva img {
+            width: 100%; }
+        .manga-descripcion main section div .cora {
+          grid-area: cora; }
+          .manga-descripcion main section div .cora img {
+            width: 100%; }
+        .manga-descripcion main section div iframe {
+          height: 315px;
+          width: 100%;
+          grid-area: video; }
+        .manga-descripcion main section div .boton-de-mostrar-mas {
+          grid-area: boton-de-mostrar-mas;
+          justify-content: center; }
+    .manga-descripcion main .aside {
+      width: 350px;
+      height: 100%;
+      grid-area: aside;
+      margin: auto;
+      margin-top: 50px; }
+      .manga-descripcion main .aside__manhua__chat-web {
+        display: flex;
+        background-color: #1F4287;
+        height: 400px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between; }
+        .manga-descripcion main .aside__manhua__chat-web h2 {
+          background-color: #071E3D;
+          text-align: center;
+          font-size: 21px;
+          color: #1561a8;
+          text-shadow: 1px 1px 4px #278EA5;
+          width: 350px; }
+        .manga-descripcion main .aside__manhua__chat-web__chat {
+          background-color: #fff;
+          width: 330px;
+          height: 320px; }
+        .manga-descripcion main .aside__manhua__chat-web div form {
+          padding: 10px; }
+          .manga-descripcion main .aside__manhua__chat-web div form .text {
+            width: 270px;
+            padding: 5px; }
+  .manga-descripcion footer {
+    grid-area: footer-manga-descripcion; }
+
+.body-uso-usuario header div nav {
+  background-color: #071E3D; }
+  .body-uso-usuario header div nav div div ul form {
+    display: inline-block;
+    margin-right: 50px;
+    padding-bottom: 5px; }
+
+.body-uso-usuario header div nav div .navbar-collapse {
+  justify-content: space-between; }
+  .body-uso-usuario header div nav div .navbar-collapse ul .header-nav-1 {
+    margin-right: 40px; }
+  .body-uso-usuario header div nav div .navbar-collapse ul .header-nav-2 {
+    margin-right: 10px; }
+
+.body-uso-usuario main section div div div .n-usuario {
+  background-color: #1745aa;
+  font-size: 25px; }
+
+.body-uso-usuario main section div div div div .usuario-img {
+  width: 260px;
+  height: 260px; }
+
+.body-uso-usuario main .listas-contenedor {
+  background-color: #071E3D;
+  margin-bottom: 20px; }
+  .body-uso-usuario main .listas-contenedor div div div div .pending-link {
+    padding: 10px 0px 10px 0px; }
+    .body-uso-usuario main .listas-contenedor div div div div .pending-link div a div div .X2 {
+      font-size: 25px; }
+    .body-uso-usuario main .listas-contenedor div div div div .pending-link div a div div .listas-icono {
+      padding-right: 8px; }
+    .body-uso-usuario main .listas-contenedor div div div div .pending-link div a div div .span-lista {
+      display: block;
+      font-size: 23px; }
+
+.body-uso-usuario main div div div div div div .float-right {
+  float: right; }
+
+.body-uso-usuario main div div div div div h3 .icino-x {
+  font-size: 200px; }
+
+.body-uso-usuario main div div div div div a .img-grupos {
+  width: 80%; }
+
+.body-uso-usuario main div div div .aside__top-10 .h2-usuario {
+  background-color: #071e3db4; }
+
+.body-uso-usuario main div div div .aside__top-10 .top-10-n {
+  background-color: #1f428798; }
+  .body-uso-usuario main div div div .aside__top-10 .top-10-n div .aside-top-1 {
+    color: gold; }
+  .body-uso-usuario main div div div .aside__top-10 .top-10-n div b a {
+    color: #D9FAFF; }
+
+.body-uso-usuario footer {
+  background-color: #071E3D;
+  height: 90px;
+  width: 100%; }
+  .body-uso-usuario footer div .siguenos {
+    text-align: center; }
+    .body-uso-usuario footer div .siguenos nav ul li {
+      display: inline-block;
+      height: 30px;
+      width: 30px;
+      text-align: center; }
+      .body-uso-usuario footer div .siguenos nav ul li a {
+        color: aqua; }
+  .body-uso-usuario footer div .small {
+    text-align: center;
+    height: 20px; }
+    .body-uso-usuario footer div .small small {
+      text-align: center; }
+
+ul {
+  list-style: none; }
+
+/*mesiaqueris*/
+@media screen and (max-width: 430px) {
+  .body-regis .main-form__flex .box-form .formulario fieldset .apellido-nombre input,
+  .body-form .main-formu .mein-form .main-form__flex div .formulario fieldset .apellido-nombre input {
+    width: 40%; }
+  .body-regis .main-form__flex .box-form .formulario fieldset .mail input,
+  .body-form .main-formu .mein-form .main-form__flex div .formulario fieldset .mail input {
+    margin-left: -0px; }
+  .body-regis .main-form__flex .box-form .formulario fieldset .mail .password input {
+    width: 60%; }
+  .body-form .main-formu .mein-form .main-form__flex div .formulario fieldset .mail .text-asunto textarea {
+    margin-left: 10px; } }
+
+@media screen and (max-width: 540px) {
+  body {
+    max-width: 100%; }
+  .home-body {
+    background-color: #000;
+    grid-template-areas: "header-home header-home" "main-home main-home" "ultima ultima" "memes-home memes-home" "aside-home aside-home" "footer-home footer-home"; }
+  .manga-descripcion main .div-descripcion .historia-titulo {
+    margin-right: 0; }
+  .manga-descripcion main .div-descripcion .img {
+    margin-left: 0;
+    width: 45%; }
+  .manga-descripcion main .div-descripcion .historia-div {
+    padding: 20px; }
+  .manga-descripcion main {
+    grid-template-areas: "div-descripsion "  "capitulo" "memes" "aside"; }
+  .manga-descripcion main .div-descripcion {
+    flex-wrap: wrap;
+    justify-content: center; }
+  .body-todos .memes-home .img-box .manga div .manga-flex div,
+  .body-biblioteca .main-biblioteca .main-biblioteca__flex .biblioteca-box div .biblioteca-flex div .manga-flex div,
+  .body-todos main .img-box .manga div .manga-flex div {
+    width: calc(50% - 10px); }
+  .aside-height {
+    display: flex;
+    justify-content: center; }
+  .body-biblioteca .main-biblioteca .main-biblioteca__flex {
+    display: flex;
+    flex-wrap: wrap; }
+  .body-biblioteca .main-biblioteca .main-biblioteca__flex .main-biblioteca__aside {
+    text-align: center; }
+  .body-biblioteca .main-biblioteca .main-biblioteca__flex .main-biblioteca__aside div .main-biblioteca__aside__h4,
+  .body-biblioteca .main-biblioteca .main-biblioteca__flex .main-biblioteca__aside div div .main-biblioteca__aside__h4,
+  .body-biblioteca .main-biblioteca div .main-biblioteca__form,
+  .manga-descripcion main section {
+    width: 100%; }
+  .body-biblioteca .main-biblioteca div .main-biblioteca__form .main-biblioteca__form__buscador {
+    width: 70%; } }
+
+@media (max-width: 920px) and (min-width: 520px) {
+  body {
+    max-width: 100%; }
+  .manga-descripcion main .div-descripcion .historia-titulo {
+    margin-right: 0; }
+  .manga-descripcion main .div-descripcion .img {
+    margin-left: 0;
+    width: 45%; }
+  .home-body {
+    background-color: #000;
+    grid-template-areas: "header-home header-home" "main-home main-home" "ultima ultima" "memes-home memes-home" "aside-home aside-home" "footer-home footer-home"; }
+  .manga-descripcion main .div-descripcion .historia-div {
+    padding: 20px; }
+  .manga-descripcion main .div-descripcion {
+    flex-wrap: wrap;
+    justify-content: center; }
+  .manga-descripcion main {
+    grid-template-areas: "div-descripsion div-descripsion"  "capitulo capitulo" "memes memes" "aside aside"; }
+  .body-todos .memes-home .img-box .manga div .manga-flex div,
+  .body-biblioteca .main-biblioteca .main-biblioteca__flex .biblioteca-box div .biblioteca-flex div .manga-flex div,
+  .body-todos main .img-box .manga div .manga-flex div {
+    width: calc(33.33% - 10px); }
+  .body-biblioteca .main-biblioteca .main-biblioteca__flex {
+    display: flex;
+    flex-wrap: wrap; }
+  .body-biblioteca .main-biblioteca .main-biblioteca__flex .main-biblioteca__aside {
+    text-align: center; }
+  .body-biblioteca .main-biblioteca .main-biblioteca__flex .main-biblioteca__aside div .main-biblioteca__aside__h4,
+  .body-biblioteca .main-biblioteca .main-biblioteca__flex .main-biblioteca__aside div div .main-biblioteca__aside__h4,
+  .body-biblioteca .main-biblioteca div .main-biblioteca__form,
+  .manga-descripcion main section {
+    width: 100%; }
+  .body-biblioteca .main-biblioteca div .main-biblioteca__form .main-biblioteca__form__buscador {
+    width: 60%; } }
+
+@media screen and (min-width: 920px) {
+  .manga-descripcion main .div-descripcion .img {
+    max-width: 260px;
+    min-width: 220px; } }
